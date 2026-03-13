@@ -8,18 +8,20 @@ body{
   margin-right: 20px;
 }
 
-#h1{
+h1{
   margin: 40px 0px 30px 180px;
 }
 
-#h1,
-#h2{
+h1,
+h2{
   font-variant: small-caps;
   font-style: italic;
 }
 
-#p{
+p{
   margin: 5px 100px 5px 5px;
+  text-indent: 30px;
+  
 }
 
 #tartalom{
@@ -32,17 +34,24 @@ body{
   padding: 40px;
 }
 
-#li{
+li{
   font-weight: bold;
   text-decoration: underline;
 }
 
-#a{
+a{
   text-decoration: none;
   color: black;
 }
 
 .jobbra{
   float: right;
-  margin: 25px;
+  margin: 1px;
+}
+
+.eletrajz{
+  font-size: 80%;
+  text-decoration: rgb(255, 255, 255);
+  margin-inline: 10px;
+  border-style: solid;
 }
